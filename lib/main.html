@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body>
+    <h1 class="logo12">BLOG</h1>
+    <h4 id="head-2">
+      Only the latest blogs will be viewed by Users, We will improve this
+      feature as we update our Web App.
+    </h4>
+    <div id="hider">
+      <div>
+        <input id="blog_input" type="text" placeholder="Enter your name" />
+      </div>
+      <div>
+        <textarea
+          name="blog1"
+          placeholder="Enter your blog text here"
+          id="blog1"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <div>
+        <button onclick="blog()" id="helloworld" class="blog_submit">
+          Submit
+        </button>
+      </div>
+      <button
+        style="display: none"
+        onclick="addblog()"
+        id="helloworld2"
+        class="blog_submit"
+      >
+        Add
+      </button>
+    </div>
+    <div>
+      <h2 id="author">demo_author</h2>
+    </div>
+    <div class="desc">
+      <h4 id="desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+        error ex neque itaque aut hic in, enim earum, eveniet adipisci veniam
+        quia? Eum quasi nam enim excepturi fuga, dolorum dignissimos.
+      </h4>
+    </div>
+    <div><button onclick="version()" id="verbose">Check Version</button></div>
+    <script src="app.js"></script>
+  </body>
+</html>

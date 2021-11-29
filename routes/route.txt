@@ -1,0 +1,15 @@
+Javascript = ../lib/app.js 
+CSS = ../styles/main.css 
+requirements = ../requirements/txt
+Run-Time = ../main.js
+
+Supported Languages(
+    Javascript
+    CSS = 3.1.2
+    HTML = 5.0
+    NodeJS = 16.13.0
+    npm = 8.1.0
+    git = 2.34.0
+    python = 3.7.9
+
+)
